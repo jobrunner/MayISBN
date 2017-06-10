@@ -14,5 +14,5 @@ Validates and formatts ISBN (International Standard Book Number). It supports ei
  
   s.ios.deployment_target = '8.0'
   s.source_files = 'MayISBN/*.{h,m}'
- 
+  s.public_header_files = 'MayISBN/*.h' 
 end
