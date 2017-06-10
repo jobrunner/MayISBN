@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: MayISBN.xcworkspace
+xcode_scheme: MayISBNTests
+xcode_sdk: iphonesimulator

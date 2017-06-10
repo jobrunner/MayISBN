@@ -1,4 +1,8 @@
 # MayISBN
+
+[![Build Status](https://travis-ci.org/jobrunner/MayISBN.svg?branch=master)](https://travis-ci.org/jobrunner/MayISBN)
+
+
 MayISBN is a library written in Objective-C for validating and formatting ISBN (International Standard Book Number) offline. 
 It supports either ISBN-10 and ISBN-13. The library's primary intent is using it in the MayLibre-App.
 
