@@ -10,6 +10,11 @@
 		24F8CC1C1EEBF08300D617AF /* MayISBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8CC121EEBF08200D617AF /* MayISBN.framework */; };
 		24F8CC211EEBF08300D617AF /* MayISBNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8CC201EEBF08300D617AF /* MayISBNTests.m */; };
 		24F8CC231EEBF08300D617AF /* MayISBN.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8CC151EEBF08200D617AF /* MayISBN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F8CC2D1EEBF3AD00D617AF /* MayISBN.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8CC2C1EEBF3AD00D617AF /* MayISBN.m */; };
+		24F8CC321EEBF40600D617AF /* MayISBNFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8CC2E1EEBF40600D617AF /* MayISBNFormatter.h */; };
+		24F8CC331EEBF40600D617AF /* MayISBNFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8CC2F1EEBF40600D617AF /* MayISBNFormatter.m */; };
+		24F8CC341EEBF40600D617AF /* MayISBNRangeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8CC301EEBF40600D617AF /* MayISBNRangeDictionary.h */; };
+		24F8CC351EEBF40600D617AF /* MayISBNRangeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8CC311EEBF40600D617AF /* MayISBNRangeDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		24F8CC1B1EEBF08300D617AF /* MayISBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayISBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F8CC201EEBF08300D617AF /* MayISBNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MayISBNTests.m; sourceTree = "<group>"; };
 		24F8CC221EEBF08300D617AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F8CC2C1EEBF3AD00D617AF /* MayISBN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MayISBN.m; sourceTree = "<group>"; };
+		24F8CC2E1EEBF40600D617AF /* MayISBNFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MayISBNFormatter.h; sourceTree = "<group>"; };
+		24F8CC2F1EEBF40600D617AF /* MayISBNFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MayISBNFormatter.m; sourceTree = "<group>"; };
+		24F8CC301EEBF40600D617AF /* MayISBNRangeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MayISBNRangeDictionary.h; sourceTree = "<group>"; };
+		24F8CC311EEBF40600D617AF /* MayISBNRangeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MayISBNRangeDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				24F8CC151EEBF08200D617AF /* MayISBN.h */,
+				24F8CC2C1EEBF3AD00D617AF /* MayISBN.m */,
+				24F8CC2E1EEBF40600D617AF /* MayISBNFormatter.h */,
+				24F8CC2F1EEBF40600D617AF /* MayISBNFormatter.m */,
+				24F8CC301EEBF40600D617AF /* MayISBNRangeDictionary.h */,
+				24F8CC311EEBF40600D617AF /* MayISBNRangeDictionary.m */,
 				24F8CC161EEBF08200D617AF /* Info.plist */,
 			);
 			path = MayISBN;
@@ -94,6 +109,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F8CC231EEBF08300D617AF /* MayISBN.h in Headers */,
+				24F8CC321EEBF40600D617AF /* MayISBNFormatter.h in Headers */,
+				24F8CC341EEBF40600D617AF /* MayISBNRangeDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F8CC351EEBF40600D617AF /* MayISBNRangeDictionary.m in Sources */,
+				24F8CC331EEBF40600D617AF /* MayISBNFormatter.m in Sources */,
+				24F8CC2D1EEBF3AD00D617AF /* MayISBN.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +412,7 @@
 				24F8CC281EEBF08300D617AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F8CC291EEBF08300D617AF /* Build configuration list for PBXNativeTarget "MayISBNTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +421,7 @@
 				24F8CC2B1EEBF08300D617AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
