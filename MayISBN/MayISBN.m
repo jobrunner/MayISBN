@@ -118,7 +118,7 @@
     
     NSString *string = [self filterDigitCharacters:code];
     
-    return [NSNumber numberWithLong:[string longLongValue]];
+    return [NSNumber numberWithLongLong:[string longLongValue]];
 }
 
 /**
