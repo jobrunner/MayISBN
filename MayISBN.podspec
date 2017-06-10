@@ -13,6 +13,7 @@ Validates and formatts ISBN (International Standard Book Number). It supports ei
   s.source           = { :git => 'https://github.com/jobrunner/MayISBN.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = "10.7"
   s.source_files = 'MayISBN/*.{h,m}'
   s.public_header_files = 'MayISBN/*.h' 
   s.requires_arc = true
