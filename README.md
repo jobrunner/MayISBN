@@ -9,7 +9,7 @@ It supports either ISBN-10 and ISBN-13. The library's primary intent is using it
 ## Installation
 Add the following to your Podfile: 
 ```
-pod 'MayISBN', :git => 'https://github.com/jobrunner/MayISBN.git', :tag => '0.1.0'
+pod 'MayISBN', :git => 'https://github.com/jobrunner/MayISBN.git', :tag => '1.0.0'
 ```
 ## Development
 It it is still under development. Latest update on ISBN ranges:  Wed, 12 Apr 2017 11:51:07 CEST.
